@@ -1,0 +1,18 @@
+Source: aw-drivers-dkms
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Section: admin
+Priority: standard
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+               dh-exec,
+               pandoc,
+
+Package: aw-drivers-dkms
+Architecture: all
+Section: admin
+Priority: optional
+Depends: ${misc:Depends},
+Description: aw-drivers-dkms
+ This package provides the aw-drivers-dkms.
