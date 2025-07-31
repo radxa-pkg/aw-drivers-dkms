@@ -1,0 +1,15 @@
+PACKAGE_NAME="img-bxm-dkms"
+PACKAGE_VERSION="#MODULE_VERSION#"
+CLEAN="make -j$(nproc) BUILD=release KERNEL_CC=gcc \
+KERNEL_LD=ld KERNEL_NM=nm KERNEL_OBJCOPY=objcopy \
+KERNELDIR=/usr/src/linux-headers-${kernelver} \
+-C img-bxm/linux/rogue_km/build/linux/sunxi_linux clean"
+MAKE="make -j$(nproc) BUILD=release KERNEL_CC=gcc \
+KERNEL_LD=ld KERNEL_NM=nm KERNEL_OBJCOPY=objcopy \
+KERNELDIR=/usr/src/linux-headers-${kernelver} \
+-C img-bxm/linux/rogue_km/build/linux/sunxi_linux"
+BUILT_MODULE_NAME="pvrsrvkm"
+BUILT_MODULE_LOCATION="img-bxm/linux/rogue_km/binary_sunxi_linux_nulldrmws_release/target_aarch64/kbuild/"
+DEST_MODULE_LOCATION="/updates/dkms"
+
+AUTOINSTALL=yes

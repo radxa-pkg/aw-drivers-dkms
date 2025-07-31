@@ -8,11 +8,13 @@ Build-Depends: debhelper (>=12~),
                lintian,
                dh-exec,
                pandoc,
+               dh-sequence-dkms
 
-Package: aw-drivers-dkms
+Package: img-bxm-dkms
 Architecture: all
 Section: admin
 Priority: optional
 Depends: ${misc:Depends},
-Description: aw-drivers-dkms
- This package provides the aw-drivers-dkms.
+Description: dkms sources for Allwinner platform IMG BXM GPU drivers
+ This package provides the dkms source code for Allwinner platform
+ IMG BXM GPU drivers.
