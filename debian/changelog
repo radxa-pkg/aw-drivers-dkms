@@ -1,5 +1,12 @@
-aw-drivers-dkms (0.1.0-1) UNRELEASED; urgency=medium
+aw-drivers-dkms (0.1.0-1) unstable; urgency=medium
 
+  [ "Radxa Computer Co., Ltd" ]
   * Add initial Debian packaging support
 
- -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 01 Jan 1970 08:00:00 +0800
+  [ Jiali Chen ]
+  * feat: add package `img-bxm-dkms`
+
+  [ dependabot[bot] ]
+  * build(deps): bump actions/download-artifact from 4 to 5
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Fri, 08 Aug 2025 11:50:16 +0000
