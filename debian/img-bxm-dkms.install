@@ -1,3 +1,4 @@
 #!/usr/bin/dh-exec
 
 src/modules/gpu/img-bxm usr/src/img-bxm-dkms-${DEB_VERSION}/
+img-bxm-dkms/usr/share usr/
