@@ -1,3 +1,13 @@
+aw-drivers-dkms (0.1.0-2) unstable; urgency=medium
+
+  [ Jiali Chen ]
+  * feat: add Vulkan ICD(Installable Client Drivers) support
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Mon, 08 Sep 2025 06:16:13 +0000
+
 aw-drivers-dkms (0.1.0-1) unstable; urgency=medium
 
   [ "Radxa Computer Co., Ltd" ]
