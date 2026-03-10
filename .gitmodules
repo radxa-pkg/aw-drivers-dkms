@@ -1,4 +1,4 @@
 [submodule "src"]
 	path = src
 	url = https://github.com/radxa/allwinner-bsp.git
-	branch = cubie-aiot-v1.4.6
+	branch = cubie-aiot-v1.4.8
