@@ -1,3 +1,17 @@
+aw-drivers-dkms (0.1.0-3) unstable; urgency=medium
+
+  [ Jiali Chen ]
+  * chore: bump src of cubie-aiot-v1.4.8
+  * fix: debian: add 0001-fix-build-for-Make-3.4.patch
+
+  [ CodeChenL ]
+  * chore: add pkg.conf
+
+  [ github-actions[bot] ]
+  * chore: update submodules
+
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Thu, 19 Mar 2026 11:26:40 +0000
+
 aw-drivers-dkms (0.1.0-2) unstable; urgency=medium
 
   [ Jiali Chen ]
