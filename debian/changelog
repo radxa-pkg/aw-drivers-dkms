@@ -1,9 +1,9 @@
-aw-drivers-dkms (1.5.0-1) UNREELEASED; urgency=medium
+aw-drivers-dkms (1.4.9-1) UNREELEASED; urgency=medium
 
   [ ZHANG Yuntian ]
   * chore: update to cubie-aiot-v1.5.0
 
- -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Tue, 08 Sep 2026 11:51:18 +0000
+ -- "Radxa Computer Co., Ltd" <dev@radxa.com>  Wed, 09 Sep 2026 06:14:17 +0000
 
 aw-drivers-dkms (0.1.0-3) unstable; urgency=medium
 
