@@ -1,0 +1,15 @@
+diff --git a/src/modules/gpu/img-bxm/linux/rogue_km/build/linux/sunxi_linux/Makefile b/src/modules/gpu/img-bxm/linux/rogue_km/build/linux/sunxi_linux/Makefile
+index b79c4acf..86e16139 100644
+--- a/src/modules/gpu/img-bxm/linux/rogue_km/build/linux/sunxi_linux/Makefile
++++ b/src/modules/gpu/img-bxm/linux/rogue_km/build/linux/sunxi_linux/Makefile
+@@ -100,9 +100,7 @@ PVR_LDM_PLATFORM_PRE_REGISTERED := 1
+ 
+ PVRSRV_NEED_PVR_DPF := 1
+ 
+-ifeq ($(CONFIG_DEVFREQ_GOV_SIMPLE_ONDEMAND),1)
+-SUPPORT_LINUX_DVFS ?= 1
+-endif
++SUPPORT_LINUX_DVFS := 1
+ 
+ # Should be last
+ include ../config/core.mk
